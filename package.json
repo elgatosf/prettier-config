@@ -1,0 +1,36 @@
+{
+	"name": "@elgato/prettier-config",
+	"version": "0.0.1",
+	"description": "Prettier configuration used by Elgato projects.",
+	"main": ".prettierrc.json",
+	"files": [
+		".editorconfig"
+	],
+	"scripts": {
+		"lint": "prettier --config .prettierrc.json \"{.prettierrc.json,package.json,*.md}\" --write"
+	},
+	"keywords": [
+		"elgato",
+		"lint",
+		"prettier"
+	],
+	"author": {
+		"name": "Elgato",
+		"url": "https://www.elgato.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/elgatosf/prettier-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/elgatosf/prettier-config/issues"
+	},
+	"homepage": "https://github.com/elgatosf/prettier-config#readme",
+	"license": "MIT",
+	"prettier": "./",
+	"peerDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.3.0",
+		"prettier-plugin-multiline-arrays": "^3.0.4",
+		"prettier": "^3.2.5"
+	}
+}

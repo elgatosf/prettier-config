@@ -1,0 +1,10 @@
+{
+	// Prettier fix (https://github.com/prettier/prettier-vscode/issues/3235)
+	"prettier.configPath": "./.prettierrc.json",
+	// VSCode.
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .npmrc",
+		"README.md": "LICENSE, CHANGELOG.md"
+	}
+}

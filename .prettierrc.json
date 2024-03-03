@@ -1,0 +1,41 @@
+{
+	"$schema": "https://json.schemastore.org/prettierrc",
+	"endOfLine": "lf",
+	"printWidth": 180,
+	"semi": true,
+	"singleQuote": false,
+	"trailingComma": "none",
+	"useTabs": true,
+	"plugins": [
+		"@trivago/prettier-plugin-sort-imports",
+		"prettier-plugin-multiline-arrays"
+	],
+	"importOrder": [
+		"<THIRD_PARTY_MODULES>",
+		"^[./]"
+	],
+	"importOrderParserPlugins": [
+		"typescript",
+		"[\"decorators\", { \"decoratorsBeforeExport\": true }]"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"importOrderCaseInsensitive": true,
+	"multilineArraysWrapThreshold": 1,
+	"overrides": [
+		{
+			"files": "**/*.md",
+			"options": {
+				"useTabs": false,
+				"tabWidth": 4
+			}
+		},
+		{
+			"files": "**/*.yml",
+			"options": {
+				"useTabs": false,
+				"tabWidth": 2
+			}
+		}
+	]
+}
