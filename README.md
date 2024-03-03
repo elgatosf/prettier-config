@@ -27,6 +27,48 @@ npm install @elgato/prettier-config --save-dev
 }
 ```
 
+## Configuration
+
+### Prettier
+
+| Option                                                                 | Value                      |
+| ---------------------------------------------------------------------- | -------------------------- |
+| [`endOfLine`](https://prettier.io/docs/en/options#end-of-line)         | `lf`                       |
+| [`printWidth`](https://prettier.io/docs/en/options#print-width)        | 180                        |
+| [`singleQuote`](https://prettier.io/docs/en/options#quotes)            | ❌ Prefer double           |
+| [`semi`](https://prettier.io/docs/en/options#semicolons)               | ✅ Prefer semicolons       |
+| [`tabWidth`](https://prettier.io/docs/en/options#tab-width)            | 4 for `.md`, 2 for `.yml`  |
+| [`useTabs`](https://prettier.io/docs/en/options#tabs)                  | ✅ Except `.md` and `.yml` |
+| [`trailingComma`](https://prettier.io/docs/en/options#trailing-commas) | None                       |
+
+### Multiline arrays
+
+| Option                                                                                                                      | Value |
+| --------------------------------------------------------------------------------------------------------------------------- | ----- |
+| [`multilineArraysWrapThreshold`](https://github.com/electrovir/prettier-plugin-multiline-arrays?tab=readme-ov-file#options) | 1     |
+
+### Sort imports
+
+| Option                                                                                                                                | Value                      |
+| ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| [`importOrder`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorder)                               | Third-party modules first. |
+| [`importOrderSeparation`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorderseparation)           | ✅                         |
+| [`importOrderSortSpecifiers`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importordersortspecifiers)   | ✅                         |
+| [`importOrderCaseInsensitive`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importordercaseinsensitive) | ✅                         |
+| [`importOrderParserPlugins`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorderparserplugins)     | TypeScript                 |
+
+### Overrides
+
+Overriding configuration can be achieved by removing the `prettier` entry from `package.json`, in favour of a [`.prettierrc.js`](https://prettier.io/docs/en/configuration) file. For example, to prefer spaces over tabs:
+
+```js
+module.exports = {
+    ...require("@elgato/prettier-config"),
+    tabWidth: 2,
+    useTabs: false
+};
+```
+
 ## Recognitions
 
 This project wishes to express thanks to those who work on Prettier, and Prettier plugins, with particular thanks to:
