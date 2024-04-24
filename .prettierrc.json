@@ -21,7 +21,7 @@
     "importOrderSeparation": true,
     "importOrderSortSpecifiers": true,
     "importOrderCaseInsensitive": true,
-    "multilineArraysWrapThreshold": 1,
+    "multilineArraysWrapThreshold": -1,
     "overrides": [
         {
             "files": "**/*.json",
