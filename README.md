@@ -20,11 +20,8 @@ npm install @elgato/prettier-config --save-dev
 
 2. Edit your `package.json` to reference the configuration.
 
-```jsonc
-{
-    // ...
-    "prettier": "@elgato/prettier-config"
-}
+```json
+"prettier": "@elgato/prettier-config"
 ```
 
 ## Configuration
@@ -65,7 +62,7 @@ Overriding configuration can be achieved by removing the `prettier` entry from `
 module.exports = {
     ...require("@elgato/prettier-config"),
     tabWidth: 2,
-    useTabs: false
+    useTabs: false,
 };
 ```
 
