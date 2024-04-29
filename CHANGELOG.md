@@ -11,6 +11,12 @@
 
 # Change Log
 
+## 0.2.1
+
+### 🐞 Fix
+
+-   Fix `.json` and `.md` file path overrides.
+
 ## 0.2.0
 
 ### ♻️ Update
