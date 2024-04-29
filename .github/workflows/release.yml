@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: "📖 Retrieve package information"
-        run: geekyeggo/npm-pkg@v1
+        uses: geekyeggo/npm-pkg@v1
         id: pkg
 
       - name: "📤 Publish"
