@@ -28,21 +28,21 @@ npm install @elgato/prettier-config --save-dev
 
 ### Prettier
 
-| Option                                                                 | Value                      |
-| ---------------------------------------------------------------------- | -------------------------- |
-| [`endOfLine`](https://prettier.io/docs/en/options#end-of-line)         | `lf`                       |
-| [`printWidth`](https://prettier.io/docs/en/options#print-width)        | 180                        |
-| [`singleQuote`](https://prettier.io/docs/en/options#quotes)            | ❌ Prefer double           |
-| [`semi`](https://prettier.io/docs/en/options#semicolons)               | ✅ Prefer semicolons       |
-| [`tabWidth`](https://prettier.io/docs/en/options#tab-width)            | 4 for `.md`, 2 for `.yml`  |
-| [`useTabs`](https://prettier.io/docs/en/options#tabs)                  | ✅ Except `.md` and `.yml` |
-| [`trailingComma`](https://prettier.io/docs/en/options#trailing-commas) | None                       |
+| Option                                                                 | Value                                 |
+| ---------------------------------------------------------------------- | ------------------------------------- |
+| [`endOfLine`](https://prettier.io/docs/en/options#end-of-line)         | `lf`                                  |
+| [`printWidth`](https://prettier.io/docs/en/options#print-width)        | 120                                   |
+| [`singleQuote`](https://prettier.io/docs/en/options#quotes)            | ❌ Prefer double                      |
+| [`semi`](https://prettier.io/docs/en/options#semicolons)               | ✅ Prefer semicolons                  |
+| [`tabWidth`](https://prettier.io/docs/en/options#tab-width)            | 4 for `.json` and `.md`, 2 for `.yml` |
+| [`useTabs`](https://prettier.io/docs/en/options#tabs)                  | ✅ Except `.json`, `.md` and `.yml`   |
+| [`trailingComma`](https://prettier.io/docs/en/options#trailing-commas) | All                                   |
 
 ### Multiline arrays
 
-| Option                                                                                                                      | Value |
-| --------------------------------------------------------------------------------------------------------------------------- | ----- |
-| [`multilineArraysWrapThreshold`](https://github.com/electrovir/prettier-plugin-multiline-arrays?tab=readme-ov-file#options) | 1     |
+| Option                                                                                                                      | Value       |
+| --------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [`multilineArraysWrapThreshold`](https://github.com/electrovir/prettier-plugin-multiline-arrays?tab=readme-ov-file#options) | -1 (manual) |
 
 ### Sort imports
 
