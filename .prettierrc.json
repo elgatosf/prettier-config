@@ -31,6 +31,12 @@
             }
         },
         {
+            "files": "*.tsx",
+            "options": {
+                "parser": "babel-ts"
+            }
+        },
+        {
             "files": "*.yml",
             "options": {
                 "useTabs": false,
