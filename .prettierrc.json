@@ -24,17 +24,23 @@
     "multilineArraysWrapThreshold": -1,
     "overrides": [
         {
-            "files": ["*.json", "*.md"],
+            "files": "*.jsonc",
             "options": {
-                "useTabs": false,
-                "tabWidth": 4
+                "trailingComma": "none"
             }
         },
         {
-            "files": "*.yml",
+            "files": ["*.json", "*.jsonc", "*.md"],
             "options": {
-                "useTabs": false,
-                "tabWidth": 2
+                "tabWidth": 4,
+                "useTabs": false
+            }
+        },
+        {
+            "files": ["*.yaml", "*.yml"],
+            "options": {
+                "tabWidth": 2,
+                "useTabs": false
             }
         }
     ]

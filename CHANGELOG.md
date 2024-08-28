@@ -11,6 +11,12 @@
 
 # Change Log
 
+## 0.2.2
+
+### ✨ New
+
+-   Add support for JSONC and YAML.
+
 ## 0.2.1
 
 ### 🐞 Fix
