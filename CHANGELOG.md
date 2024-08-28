@@ -15,7 +15,7 @@
 
 ### ✨ New
 
--   Add support for JSONC and YAML.
+-   Add support for JSONC and YAML files.
 
 ## 0.2.2
 
