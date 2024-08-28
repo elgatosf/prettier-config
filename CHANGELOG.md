@@ -15,19 +15,19 @@
 
 ### ✨ New
 
-- Add support for `.tsx` files.
+-   Add support for JSONC and YAML.
 
 ## 0.2.2
 
 ### ✨ New
 
--   Add support for JSONC and YAML.
+-   Add support for TSX files.
 
 ## 0.2.1
 
 ### 🐞 Fix
 
--   Fix `.json` and `.md` file path overrides.
+-   Fix JSON and MD file path overrides.
 
 ## 0.2.0
 
