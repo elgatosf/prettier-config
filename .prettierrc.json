@@ -37,6 +37,12 @@
             }
         },
         {
+            "files": "*.tsx",
+            "options": {
+                "parser": "babel-ts"
+            }
+        },
+        {
             "files": ["*.yaml", "*.yml"],
             "options": {
                 "tabWidth": 2,
