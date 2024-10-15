@@ -46,13 +46,13 @@ npm install @elgato/prettier-config --save-dev
 
 ### Sort imports
 
-| Option                                                                                                                                | Value                      |
-| ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| [`importOrder`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorder)                               | Third-party modules first. |
-| [`importOrderSeparation`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorderseparation)           | ✅                         |
-| [`importOrderSortSpecifiers`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importordersortspecifiers)   | ✅                         |
-| [`importOrderCaseInsensitive`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importordercaseinsensitive) | ✅                         |
-| [`importOrderParserPlugins`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorderparserplugins)     | TypeScript                 |
+| Option                                                                                                                                | Value                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`importOrder`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorder)                               | Third-party modules first.                                                                                                                                                                     |
+| [`importOrderSeparation`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorderseparation)           | ✅                                                                                                                                                                                             |
+| [`importOrderSortSpecifiers`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importordersortspecifiers)   | ✅                                                                                                                                                                                             |
+| [`importOrderCaseInsensitive`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importordercaseinsensitive) | ✅                                                                                                                                                                                             |
+| [`importOrderParserPlugins`](https://github.com/trivago/prettier-plugin-sort-imports?tab=readme-ov-file#importorderparserplugins)     | TypeScript, [decoratorAutoAccessors](https://github.com/tc39/proposal-grouped-and-auto-accessors), [explicitResourceManagement](https://github.com/tc39/proposal-explicit-resource-management) |
 
 ### Overrides
 
