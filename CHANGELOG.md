@@ -11,6 +11,12 @@
 
 # Change Log
 
+## 0.2.4
+
+### ✨ New
+
+-   Add support for [auto-accessor](https://github.com/tc39/proposal-grouped-and-auto-accessors) and [explicit resource management](https://github.com/tc39/proposal-explicit-resource-management) proposals.
+
 ## 0.2.3
 
 ### ✨ New

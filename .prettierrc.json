@@ -16,6 +16,8 @@
     ],
     "importOrderParserPlugins": [
         "typescript",
+        "decoratorAutoAccessors",
+        "explicitResourceManagement",
         "[\"decorators\", { \"decoratorsBeforeExport\": true }]"
     ],
     "importOrderSeparation": true,
