@@ -1,6 +1,6 @@
 {
     "name": "@elgato/prettier-config",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "description": "Prettier configuration used by Elgato projects.",
     "main": ".prettierrc.json",
     "files": [
@@ -29,8 +29,8 @@
     "license": "MIT",
     "prettier": "./",
     "peerDependencies": {
-        "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-        "prettier-plugin-multiline-arrays": "^3.0.4",
-        "prettier": "^3.2.5"
+        "@trivago/prettier-plugin-sort-imports": "^5.2.1",
+        "prettier-plugin-multiline-arrays": "^4.0.2",
+        "prettier": "^3.4.2"
     }
 }
