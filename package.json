@@ -1,6 +1,6 @@
 {
     "name": "@elgato/prettier-config",
-    "version": "0.2.5",
+    "version": "0.2.4",
     "description": "Prettier configuration used by Elgato projects.",
     "main": ".prettierrc.json",
     "files": [
