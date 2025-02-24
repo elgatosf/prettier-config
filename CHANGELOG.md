@@ -11,6 +11,12 @@
 
 # Change Log
 
+## 0.2.6
+
+### 🐞 Fix
+
+-   Revert to `prettier-plugin-multiline-arrays@^3.0.6` to support Node.js 20.
+
 ## 0.2.5
 
 ### ♻️ Update
