@@ -1,4 +1,4 @@
 {
-	// Prettier fix (https://github.com/prettier/prettier-vscode/issues/3235)
-	"prettier.configPath": "./.prettierrc.json"
+    // Prettier fix (https://github.com/prettier/prettier-vscode/issues/3235)
+    "prettier.configPath": "./index.mjs"
 }

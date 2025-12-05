@@ -2,12 +2,12 @@
     "name": "@elgato/prettier-config",
     "version": "0.3.1",
     "description": "Prettier configuration used by Elgato projects.",
-    "main": ".prettierrc.json",
+    "main": "index.mjs",
     "files": [
         ".editorconfig"
     ],
     "scripts": {
-        "lint": "prettier --config .prettierrc.json \"{.prettierrc.json,package.json,*.md}\" --write"
+        "lint": "prettier --config index.mjs \"{index.mjs,package.json,*.md}\" --write"
     },
     "keywords": [
         "elgato",
@@ -27,7 +27,6 @@
     },
     "homepage": "https://github.com/elgatosf/prettier-config#readme",
     "license": "MIT",
-    "prettier": "./",
     "packageManager": "pnpm@10.18.0",
     "dependencies": {
         "@trivago/prettier-plugin-sort-imports": "^5.2.1",
