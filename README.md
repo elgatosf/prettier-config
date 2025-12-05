@@ -15,7 +15,7 @@
 1. Install `@elgato/prettier-config`.
 
 ```
-pnpm add @elgato/prettier-config --save-dev
+npm i @elgato/prettier-config --save-dev
 ```
 
 2. Edit your `package.json` to reference the configuration.

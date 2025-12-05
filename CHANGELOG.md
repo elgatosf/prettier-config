@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.3.1
+
+### Patch Changes
+
+- Update usage example to use npm.
+
 ## 0.3.0
 
 ### Minor Changes
