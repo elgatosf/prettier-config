@@ -28,6 +28,7 @@
     "homepage": "https://github.com/elgatosf/prettier-config#readme",
     "license": "MIT",
     "prettier": "./",
+    "packageManager": "pnpm@10.18.0",
     "dependencies": {
         "@trivago/prettier-plugin-sort-imports": "^5.2.1",
         "prettier-plugin-multiline-arrays": "^3.0.6"
