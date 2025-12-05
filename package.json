@@ -28,9 +28,14 @@
     "homepage": "https://github.com/elgatosf/prettier-config#readme",
     "license": "MIT",
     "prettier": "./",
+    "dependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^6.0.0",
+        "prettier-plugin-multiline-arrays": "^4.0.5"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.29.8"
+    },
     "peerDependencies": {
-        "@trivago/prettier-plugin-sort-imports": "^5.2.1",
-        "prettier": "^3.4.2",
-        "prettier-plugin-multiline-arrays": "^3.0.6"
+        "prettier": ">=3.0.0 <3.7.0"
     }
 }
