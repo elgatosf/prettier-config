@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.3.2
+
+### Patch Changes
+
+- 23c6cd0: Improves support for pnpm and yarn based projects.
+
 ## 0.3.1
 
 ### Patch Changes
