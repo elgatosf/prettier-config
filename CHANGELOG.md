@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.3.0
+
+### Minor Changes
+
+- ed9f8ad: Improve dependency resolution.
+
 ## 0.2.6
 
 ### Patch Changes
