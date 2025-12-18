@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.3.3
+
+### Patch Changes
+
+- Add support for Prettier 3.7.x.
+
 ## 0.3.2
 
 ### Patch Changes
